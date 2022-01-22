@@ -1,0 +1,83 @@
+@font-face {
+    font-family: font;
+    src: url(../fonts/Ubuntu-Regular.ttf);
+}
+@font-face {
+    font-family: font1;
+    src: url(../fonts/Ubuntu-Light.ttf);
+}
+body {text-align: center;
+    color: white;
+    background-color: rgb(44, 44, 44);
+}
+
+.maindiv {margin-top: 150px;
+    justify-content: center;
+    text-align: center;    
+    display:flex;
+
+}
+
+.cardbox1 {
+    border-radius: 20px;
+    background-image: url(../img/box1.jpg);
+    background-size: cover;
+    text-align: center;
+    width: 300px;
+    height: 450px;
+    margin-left: 50px;
+}
+#brohm{
+    font-family: font;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(0, 0, 0, 0.301);
+    margin-left: 170px;
+    margin-top: 25px;
+    padding: 10px;
+    margin-bottom: 150px;
+}
+p{
+    font-family: font1;
+    display: inline-block;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.575);
+    width:200px;
+    margin:10px
+}
+.non{
+    border: none;
+}
+
+#hh{
+    vertical-align:text-top;
+    width: fit-content;
+    margin:300px 450;
+}
+.cardbox2{
+    background-image: url(../img/box2.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    width: 300px;
+    height: 450px;
+    margin-left: 50px;
+    
+}
+#book{    
+    margin-top: 73%;
+    text-align: center;
+    font-family: font;
+    color: rgb(255, 255, 255);
+    height: 20px;
+    width: 50px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 40%;
+}
+.cardbox3 {
+    margin-left: 50px;
+    border-radius: 20px;
+    background-image: url(../img/box3.jpg);
+    background-size: cover;
+    text-align: center;
+    width: 300px;
+    height: 450px;
+}

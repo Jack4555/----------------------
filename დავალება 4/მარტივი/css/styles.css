@@ -1,0 +1,61 @@
+@font-face {
+    font-family: extralight;
+    src: url(../fonts/Rubik-Regular.ttf);
+}
+
+.maindiv {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.cardbox {
+    box-shadow: 3px 3px 3px gray;
+    width: 300px;
+    height: 480px;
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+h1 {
+    font-family: extralight;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+h4 {
+    font-family: extralight;
+    text-align: center;
+    color: rgb(255, 174, 24);
+    margin: 10px;
+}
+
+p {
+    text-align: justify;
+    margin: 10px;
+}
+
+.img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    object-position: 50% 0%;
+    border-radius: 5px;
+}
+
+.button {
+    padding: 0px 5px;
+    width: fit-content;
+    height: fit-content;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: rgba(255, 174, 24, 0.644);
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    border: none;
+}

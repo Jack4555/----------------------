@@ -1,0 +1,134 @@
+*{box-sizing: border-box;}
+@font-face {
+    font-family: font;
+    src: url(../fonts/ReadexPro-SemiBold.ttf);
+}
+body{
+    margin:0;
+}
+.background{
+    width: 100%;
+    height: 720px;
+    margin: 0;
+    background: rgb(31,225,56);
+    background: linear-gradient(90deg, rgba(31,225,56,1) 0%, rgba(45,45,186,1) 100%, rgba(0,212,255,1) 100%);
+    display: flex;
+    align-content: center;
+    
+}
+.card h2{
+    font-family: font;   
+}
+.card{
+    width: 800px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    padding: 50px 70px;
+}
+input[name="top1"]{
+    border-radius: 5px;
+    border:none;
+    background-color: rgba(128, 128, 128, 0.178);
+    width: 250px;
+    height: 50px;
+}
+input[name="top1"] + span{
+    position: relative;
+    font-family: font;
+    font-size: 18px;
+    opacity: 0.4;
+    left: -244px;
+    top: 2px;
+}
+input[name="top1"]:focus + span{
+    top:-48px;
+    transition: .7s;
+    opacity: 1;
+}
+input[name="top2"] + span{
+    position: relative;
+    font-family: font;
+    opacity: 0.4;
+    left: 417px;
+    top: -37px;
+    font-size: 18px;
+}
+input[name="top2"]{
+    border-radius: 5px;
+    border:none;
+    background-color: rgba(128, 128, 128, 0.178);
+    width: 250px;
+    height: 50px;
+    
+}
+input[name="top2"]:focus + span{
+    top:-87px;
+    transition: .7s;
+    opacity: 1;
+}
+.inline{
+    margin-top: 52px;
+}
+input[name="bottom1"]{
+    margin-top: 40px;
+    display: block;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.178);
+    width: 657px;
+    height: 50px;
+}
+input[name="bottom1"]:focus + span{
+    top:-88px;
+    transition: .7s;
+    opacity: 1;
+}
+input[name="bottom1"]+ span{
+    position: relative;
+    font-family: 'font';
+    font-size: 18px;
+    opacity: 0.4;
+    top: -38px;
+    left: 10px;
+}
+input[name=bottom2]{
+    margin-top: 40px;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.178);
+    border: none;
+    width: 657px;
+    height: 130px;
+}
+input[name="bottom2"]+ span{
+    position: relative;
+    font-family: 'font';
+    font-size: 18px;
+    opacity: 0.4;
+    top: -125px;
+    left: 10px;
+}
+input[name="bottom2"]:focus + span{
+    top:-175px;
+    transition: .7s;
+    opacity: 1;
+}
+a{
+    position: absolute;
+    top: 81%;
+    left: 48%;
+    text-decoration: none;
+    padding:10px 22px;
+    font-family: font;
+    background: rgba(31, 225, 57, 0.5);
+    background: linear-gradient(90deg, rgba(31, 225, 57, 0.5) 0%, rgba(45, 45, 186, 0.5) 100%, rgba(0, 213, 255, 0.5) 100%);
+    color:white;
+}
+p{
+    font-family: 'font';
+    position: absolute;
+    top: 93%;
+    left: 45%;
+    color:white;
+    opacity: 0.6;
+}

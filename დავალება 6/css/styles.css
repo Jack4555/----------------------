@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: font;
+    src: url(../fonts/ReadexPro-Light.ttf);
+}
+@font-face {
+    font-family: font1;
+    src: url(../fonts/ReadexPro-Bold.ttf);
+}
+body{
+    background-color: rgba(128, 128, 128, 0.24);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin:0;
+
+}
+.firstcard{
+    background-color: white;
+    margin-right: 50px;
+    width: 300px;
+    height: 400px;
+    
+}
+.secondcard{
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.432);
+}
+.cards{
+    display: flex; 
+}
+.firstcardimg{
+    position: relative;
+    width: 100%;
+    height: 63%;
+    object-fit: contain;
+    margin-top: 40px;
+}
+.secongcardimg{
+    position: relative;
+    width: 100%;
+    height: 63%;
+    object-fit: contain;
+    margin-top: 40px;
+}
+.text{
+    font-family: font;
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    padding: 16px 23px 6px 23px;
+}
+.adi{
+    font-size: 23px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.582);
+    
+}
+.number{
+    font-size: 23px;
+    font-family: font1;
+    color: rgba(52, 209, 162, 0.699);
+    
+}
+.name{
+    font-family: font;
+    padding: 0px 23px;
+    margin: 0;
+    font-weight: bold;
+    color: rgba(128, 128, 128, 0.541);
+}
+.sizescolors{
+    font-family: font1;
+    font-size: 13px;
+    color:rgba(0, 0, 0, 0.788);
+
+}
+.sizes{
+    font-family: font2;
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.541);
+    font-weight: bolder;
+}
+.textbox {
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    bottom: 253px;
+}
+.ptags{
+    padding: 5px 23px 6px 23px;   
+}
+#color {
+    position: absolute;
+    width: 300px;
+    height: 229px;
+    background-color: rgba(74, 218, 163, 0.404);
+    z-index: 100;
+}
+#details{
+    font-weight: 500;
+    position: absolute;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    width: 135px;
+    border-radius: 3px;
+    padding: 10px;
+    z-index: 101;
+    top: 350px;
+    left: 830px;
+}

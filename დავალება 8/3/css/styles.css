@@ -1,0 +1,42 @@
+@font-face {
+    font-family: font;
+    src: url(../fonts/Montserrat-Thin.ttf);
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(26, 26, 26);
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card{
+    background-color:rgb(73, 73, 73);
+    width: 500px;
+    height: 300px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.card a{
+    border-bottom:2px solid white;
+    padding: 15px 20px;
+    border-radius: 2%;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'font';
+}
+.card a:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+
+
+
+}

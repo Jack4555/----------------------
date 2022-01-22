@@ -1,0 +1,27 @@
+
+.fulltext{
+    position: relative;
+    left: 300px;
+    background-color: rgba(129, 95, 95, 0.295);
+    color: #47b95a;
+    width: 800px;
+    height: 500px;
+    font-weight:bold;
+}
+
+
+body{
+    background-image: url(../img/1.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: 95%;
+    background-position-x: center;
+    background-position-y: center;  
+    
+    
+}
+.header{
+    text-align: center;
+}
+
+

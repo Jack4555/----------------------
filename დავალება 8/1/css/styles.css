@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+div{
+    opacity: 0.4;
+    background-color:white;
+    width: 300px;
+    height: 100px;    
+}
+.line{ border:none;
+    border-bottom: 2px solid black;
+    width: 155px;
+    position: relative;
+    top: 56px;
+}
+.line:focus{
+    outline: none;
+    border-bottom:2px solid rgb(64, 88, 224);
+}
+.line:focus + h4{
+    color: rgb(64, 88, 224);
+    top: -20px;
+    font-size: 12px;
+    transition: 0.4s;
+}
+h4{
+    position: relative;
+    left: 0px;
+}

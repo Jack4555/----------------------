@@ -1,0 +1,127 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+@font-face {
+    font-family: "barlowbold";
+    src: url(../fonts/Barlow-Bold.ttf);
+}
+@font-face {
+    font-family: "barlow";
+    src: url(../fonts/Barlow-Medium.ttf);
+}
+@font-face {
+    font-family: "boogalo";
+    src: url(../fonts/Boogaloo-Regular.ttf);
+}
+.container{
+    width:1140px;
+    margin:auto;
+    max-width: 100%;
+    padding:0px 15px;
+    
+}
+section{
+    display: flex;
+}
+nav{
+    box-shadow: 3px 2px 3px #80808069;
+}
+li{
+    list-style: none;
+}
+.row{
+    display:flex;
+    flex-wrap:wrap;
+}
+.cards .row{
+    justify-content: space-between;
+}
+nav .row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.navbar li{
+    display: inline-block;
+    padding:0px 10px;
+}
+a{  
+    padding: 5px 15px;
+    font-family: "barlow";
+    color: rgb(48, 48, 48);
+    text-decoration: none;
+}
+.navbar{
+    margin-left: auto;
+    margin-top: 6px;
+}
+.logo{
+    transform: scale(2);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    stroke-width: 1.5px;
+    stroke: rgb(48, 48, 48);
+}
+.text{
+    background-color: #bababa59;
+    outline: 35px solid #bababa59;
+    display: inline-block;
+    transform: translate(30%, -50%);
+    color: rgb(48, 48, 48);
+    outline-offset: 2px;
+    padding: 20px;
+    text-align: center;
+}
+.text h1{
+    font-size: 110px;
+    font-family: "boogalo";
+}
+.text p{
+    font-size:30px;
+    font-family: "barlowbold";
+}
+hr {
+    border:none;
+    width: 100%;
+    height: 50px;
+    border-bottom:0px solid #1f1209;
+    box-shadow: 3px 2px 3px #80808069;
+    margin: -50px auto 10px; 
+}
+.greeting img{
+  transform: translate(0px, 41.4px );
+}
+.bodytext li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+.bodytext ul{
+    margin-top:50px;
+}
+.bodytext a:hover{
+    background-color: #000000ba;
+    color: #fff;
+}
+.col-3{
+    width:30%;
+}
+.card{
+    margin-top: 50px;
+    width: 100%;
+}
+.card img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+.card-body{
+    font-family: "barlow";
+    text-align: center;
+}
+.card-body h4,p{
+    margin:15px 0px;
+}

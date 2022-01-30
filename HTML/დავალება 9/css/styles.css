@@ -39,6 +39,7 @@ nav a{
     display: inline-block;
     padding: 25px 15px;
     align-items: center;
+    cursor:pointer;
 }
 body{
     background-image: url(../img/ski_cable_car_mountains_winter_119699_1920x1080.jpg);

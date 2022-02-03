@@ -500,30 +500,34 @@
       </div>
       <div class="container gx-4 gx-lg-5 d-flex justify-content-between mb-5">
         <div>
-          <span class="d-block"><i class="bi bi-geo-alt-fill fs-3 text-warning"></i> <span class="text-light ms-3">A99 Adam Street
+          <span class="d-block"><i class="bi bi-geo-alt-fill fs-3 text-warning"></i> <span class="text-light ms-3">A99
+              Adam Street
               <br><span class="ms-5">Texas,TX 555072</span></span>
           </span>
           <span class="d-block"><i class="bi bi-envelope fs-3 text-warning"></i> <span
               class="text-light ms-3">info@baker.com</span></span>
-          <span class="d-block"><i class="bi bi-telephone-fill fs-3 text-warning"></i><span class="text-light ms-3">+41 5787
+          <span class="d-block"><i class="bi bi-telephone-fill fs-3 text-warning"></i><span class="text-light ms-3">+41
+              5787
               2323</span></span>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-5">
           <form id="contactForm" data-sb-form-api-token="API_TOKEN">
             <!-- Name input-->
-            <div class="form-floating mb-3">
-              <input class="form-control" id="name" type="text" placeholder="Enter your name..."
-                data-sb-validations="required" />
-              <label for="name">Full name</label>
-              <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-            </div>
-            <!-- Email address input-->
-            <div class="form-floating mb-3">
-              <input class="form-control" id="email" type="email" placeholder="name@example.com"
-                data-sb-validations="required,email" />
-              <label for="email">Email address</label>
-              <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-              <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+            <div class="">
+              <div class="form-floating mb-3 position-relative">
+                <input class="form-control" id="name" type="text" placeholder="Enter your name..."
+                  data-sb-validations="required" />
+                <label for="name">Full name</label>
+                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+              </div>
+              <!-- Email address input-->
+              <div class="form-floating mb-3 position-relative">
+                <input class="form-control" id="email" type="email" placeholder="name@example.com"
+                  data-sb-validations="required,email" />
+                <label for="email">Email address</label>
+                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+              </div>
             </div>
             <!-- Phone number input-->
             <div class="form-floating mb-3">

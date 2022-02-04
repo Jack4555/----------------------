@@ -18,34 +18,59 @@
                     <path fill-rule="evenodd"
                         d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707zm4.344 0a.5.5 0 0 1 .707 0l4.096 4.096V11.5a.5.5 0 1 1 1 0v3.975a.5.5 0 0 1-.5.5H11.5a.5.5 0 0 1 0-1h2.768l-4.096-4.096a.5.5 0 0 1 0-.707zm0-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707zm-4.344 0a.5.5 0 0 1-.707 0L1.025 1.732V4.5a.5.5 0 0 1-1 0V.525a.5.5 0 0 1 .5-.5H4.5a.5.5 0 0 1 0 1H1.732l4.096 4.096a.5.5 0 0 1 0 .707z" />
                 </svg>
+                <label for="burgerchk"class="burger-menu">
+                
+                    <span class="burgerspan">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                        </svg>
+                    </span>
+                </label>
+                <input type="checkbox" name="checkbox" id="burgerchk">
                 <ul class="navbar">
-                    <li>
-                        <a href="">HOME</a>
-                        <!-- <div class="dropdown">
+                    <li class="droplist">
+                        <a href="" >HOME</a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                    </svg>
+                        <div class="dropdown">
                             <a href="">product</a>
                             <a href="">product</a>
                             <a href="">product</a>
                             <a href="">product</a>
-                        </div> -->
+                        </div>
                     </li>
                     <li><a href="">ABOUT US</a></li>
-                    <li>
-                        <a href="">PORTFOLIO</a>
-                        <!-- <div class="dropdown">
+                    <li class="droplist">
+                        <a href="" >PORTFOLIO</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                        </svg>
+                        <div class="dropdown">
                             <a href="">product</a>
                             <a href="">product</a>
                             <a href="">product</a>
                             <a href="">product</a>
-                        </div> -->
+                        </div>
                     </li>
-                    <li>
-                        <a href="">BLOG</a>
-                        <!-- <div class="dropdown">
+                    <li class="droplist">
+                        <a href="" >BLOG</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                        </svg>
+                        <div class="dropdown">
                             <a href="">product</a>
                             <a href="">product</a>
                             <a href="">product</a>
                             <a href="">product</a>
-                        </div> -->
+                        </div>
 
                     </li>
                     <li><a href="">PRICING</a></li>
@@ -61,7 +86,7 @@
                 <img src="pics/girl.png" alt="pic not found">
             </span>
             <span class="text">
-                <h1>Hello!! I'm Berra</h1>
+                <h1>Hello!! I'm Jack</h1>
                 <p>Web & Graphic Designer</p>
             </span>
         </div>
@@ -90,7 +115,7 @@
                         </div>
                     </div>
                     <div class="col-3">
-                        <div class="card">
+                        <div class="card" id="middle">
                             <img src="pics/2.jpg" alt="pic not found">
                             <div class="card-body">
                                 <h4>Roy Nice Design</h4>
@@ -108,7 +133,7 @@
                         </div>
                     </div>
                     <div class="col-3">
-                        <div class="card">
+                        <div class="card" id="top">
                             <img src="pics/4.jpg" alt="pic not found">
                             <div class="card-body">
                                 <h4>Roy Nice Design</h4>
@@ -126,7 +151,7 @@
                         </div>
                     </div>
                     <div class="col-3">
-                        <div class="card">
+                        <div class="card" id="top">
                             <img src="pics/6.jpg" alt="pic not found">
                             <div class="card-body">
                                 <h4>Roy Nice Design</h4>
@@ -137,20 +162,56 @@
                 </div>
             </div>
         </section>
-        <div class="blog">
-            <h4>MY BLOG</h4>
-            <div class="footercards"></div>
+    </div>
+    <div class="blog">
+        <div class="container">
+            <h3>MY BLOG</h3>
+            <div class="row">
+                <div class="col-3">
+                    <div class="card">
+                        <img src="pics/7.jpg" alt="pic not found">
+                        <div class="card-body">
+                            <h4>Blog Title News 06</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius, nam, autem,
+                                adipisci illo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <img src="pics/8.jpg" alt="pic not found">
+                        <div class="card-body">
+                            <h4>Blog Title News 05</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius, nam, autem,
+                                adipisci illo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <img src="pics/9.jpg" alt="pic not found">
+                        <div class="card-body">
+                            <h4>Blog Title News 04</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius, nam, autem,
+                                adipisci illo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <footer>
-        <ul>
-            <span>Berra 2016 All Rights Reserved</span>
-            <li>Facebook</li>
-            <li>Twitter</li>
-            <li>Instagram</li>
-            <li>Dribble</li>
-            <li>Google-plus</li>
-        </ul>
+
+    <footer class="container">
+        <div class="row">
+            <span>Jack 2022 All Rights Reserved</span>
+                <ul>  
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>Instagram</li>
+                <li>Dribble</li>
+                <li>Google-plus</li>
+            </ul>
+        </div>
     </footer>
     <div class="up"></div>
 </body>

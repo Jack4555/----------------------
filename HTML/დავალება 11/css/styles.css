@@ -48,9 +48,10 @@ nav .row{
 .navbar li{
     display: inline-block;
     padding:0px 10px;
+    position: relative;
 }
 a{  
-    padding: 5px 15px;
+    padding: 5px 5px;
     font-family: "barlow";
     color: rgb(48, 48, 48);
     text-decoration: none;
@@ -110,6 +111,7 @@ hr {
     width:30%;
 }
 .card{
+    box-shadow: 5px 4px 5px #8080806b;
     margin-top: 50px;
     width: 100%;
 }
@@ -124,4 +126,190 @@ hr {
 }
 .card-body h4,p{
     margin:15px 0px;
+}
+#middle img{
+    height: 233px;
+}
+#top{
+    margin-top: -13px;
+}
+.blog h3{
+    margin-left: 43%;
+    margin-top: 50px;
+    font-weight: 500;
+    padding:50px;
+    
+}
+.blog .row{
+    justify-content: space-between;
+}
+.blog{
+    background-color: #bababa59;
+}
+.blog .card{
+    box-shadow: none;
+}
+footer ul{
+    display: flex;
+    margin-left: auto;
+}
+footer li{
+    padding: 40px 20px;
+}
+footer span{
+    padding: 40px 20px;
+}
+.dropdown{
+    width: 110px;
+    height: fit-content;
+    border: 1px solid black;
+    display: flex;
+    background-color: #bababa59;
+    flex-direction: column;
+    position: absolute;
+    z-index: 99;
+    display: none;
+}
+.droplist:hover .dropdown{
+    transform: translate(4%, 10%);
+    display: block;
+    background-color: #bababa59;
+
+}
+.burgerspan svg{
+    display: none;
+    width: 50px;
+    height: 64px;
+}
+#burgerchk{
+    display: none;
+}
+@media (max-width:1024px){
+    .text{
+        transform: translate(3%, -50%)
+    }
+}
+@media (max-width:768px){
+    .text{
+        width: 390px;
+        height: 300px;
+        transform: translate(3%, -4%);
+    }
+    .greeting img{
+        transform: translate(-6%, 1%);
+    }
+    .navbar a{
+        padding: 5px 5px;
+    }
+}
+@media (max-width:768px){
+    .navbar{
+        background-color: #bababa59;
+        flex-direction: column;
+        justify-content: center;
+        height: fit-content;
+        display:none;
+        position: absolute;
+        right: 0;
+        top: 70px;
+    }
+    .navbar li{
+        display: block;
+        padding: 5px 8px;
+    }
+    .burgerspan svg{
+        display: block;
+    }
+    #burgerchk:checked + .navbar{
+        display: block;
+    }
+    .blog h3{
+        margin-left:300px;
+        padding:10px 20px;
+    }
+}
+@media (max-width:425px){
+    .text h1{
+        font-size: 40px;
+    }
+    .text p{
+        font-size: 24px;
+    }
+    .text{
+        width: 244px;
+        height: 160px;
+        transform: translate(54%, -114%);
+    }
+    .greeting img{
+        transform: translate(-10%, 8%);
+        height: 221px;
+    }
+    #middle img{
+        height: 120px;
+    }
+    hr{
+        margin-top: -224px;
+    }
+    .blog h3{
+        margin-left: 145px;
+        padding: 5px 5px;
+    }
+    footer li{
+        padding: 5px 5px;
+    }
+    footer span{
+        padding: 5px 5px;
+    }
+}
+@media (max-width:375px){
+    .greeting img{
+        transform: translate(-12%, 29%);
+        height: 185px;
+    }
+    .text h1{
+        font-size: 30px;
+    }
+    .text p{
+        font-size: 20px;
+    }
+    .text{width: 202px;
+    height: 160px;
+    transform: translate(-4%, 3%);
+    }
+    hr{
+        margin-top: -7px;
+    }
+    .blog h3{
+        margin-left: 120px;
+    }
+}
+@media (max-width:320px){
+    .greeting img{
+        transform: translate(-12%, 25%);
+        height: 185px;
+    }
+    .text h1{
+        font-size: 30px;
+    }
+    .text p{
+        font-size: 20px;
+    }
+    .text{
+        width: 160px;
+        height: 158px;
+        transform: translate(-10%, 16%);
+    }
+    hr{
+        margin-top: -7px;
+    }
+    .blog h3{
+        margin-left: 100px;
+    }
+    #middle img {
+        height: 80px;
+    }
+
+    footer li{
+        padding: 5px 0px;
+    }
 }
